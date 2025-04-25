@@ -1,0 +1,6 @@
+# Ignore everything in .vscode
+.vscode/*
+
+# But keep these two files
+!.vscode/settings.json
+!.vscode/extensions.json

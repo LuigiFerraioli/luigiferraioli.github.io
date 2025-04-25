@@ -1,0 +1,20 @@
+[
+  {
+    "title": "♾️ DEFACTO",
+    "description": "The DEFACTO project focuses on developing a DevOps pipeline for software development in rail vehicles. The goal is to support the entire development process—from planning and implementation to the deployment of new features—through automated testing and development steps. Once the pipeline is successfully completed, the software can be automatically deployed to real rail vehicles.",
+    "image": "../image/defacto.png",
+    "link": "https://git.fh-aachen.de/defacto/defacto_devops_pipeline/-/wikis/home"
+  },
+  {
+    "title": "🚁 5URVIVE",
+    "description": "The 5URVIVE project supports first responders in emergency situations—such as a heart attack in hard-to-reach terrain—by using UAVs (unmanned aerial vehicles) to quickly deliver life-saving equipment like defibrillators. These UAVs are designed to autonomously navigate to the incident location and interact with first responders on site. The project's aim is to make emergency response chains more efficient and faster.",
+    "image": "https://github.com/LuigiFerraioli/ros2_gazebo_aachen/blob/main/images/tivoli.png?raw=true",
+    "link": "https://5urvive.de/"
+  },
+  {
+    "title": "🚆 Gazebo Train",
+    "description": "The Gazebo Train project involves creating a digital twin of a rail vehicle using ROS2 and Gazebo. Equipped with LiDAR sensors, camera systems, and inertial measurement units (IMUs), the virtual train can realistically perceive its surroundings. This enables testing and optimization of concepts for automated driving and assistance systems in simulation before real-world deployment.",
+    "image": "https://github.com/LuigiFerraioli/ros2_gazebo_train/raw/main/images/main.png",
+    "link": "https://github.com/LuigiFerraioli/ros2_gazebo_train"
+  }
+]

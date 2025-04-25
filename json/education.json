@@ -1,0 +1,32 @@
+[
+  {
+    "start_year": "2025",
+    "end_year": "2025",
+    "title": "ISTQB® Certified Tester Foundation Level",
+    "description": ""
+  },
+  {
+    "start_year": "2023",
+    "end_year": "2025",
+    "title": "M. Sc. Mechatronics - FH Aachen",
+    "description": "Master’s thesis: Development and validation of a CI/CD pipeline for environmental sensing in rail vehicles."
+  },
+  {
+    "start_year": "2022",
+    "end_year": "2023",
+    "title": "B. Eng. Mechatronics - FH Aachen",
+    "description": "Bachelor’s thesis: Validation of a simulation environment for environmental sensing in rail vehicles."
+  },
+  {
+    "start_year": "2019",
+    "end_year": "2023",
+    "title": "B. Eng. Mechanical Engineering - FH Aachen",
+    "description": "Bachelor’s thesis: Model for predicting GNSS uncertainty in urban environments."
+  },
+  {
+    "start_year": "2016",
+    "end_year": "2019",
+    "title": "Automotive Mechatronics Technician - Bernhardt Nutzfahrzeuge GmbH",
+    "description": "Maintenance, servicing, and fault diagnosis of cars and commercial vehicles."
+  }
+]

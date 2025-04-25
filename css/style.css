@@ -1,0 +1,326 @@
+html,
+body {
+  margin: 0;
+  position: relative;
+}
+
+body {
+  background-image: url('https://raw.githubusercontent.com/LuigiFerraioli/ros2_gazebo_heidelberg/main/images/heidelberg3.png');
+  /*background-image: url('../image/background.png'); */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+}
+h1 {
+  text-align: center;
+}
+.page-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.page-heading::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 50%;
+  height: 0.2em;
+  background-color: #a30a0a;
+  transform: translateX(-50%);
+}
+/* Begin Index.html */
+.profile-image {
+  margin-top: 2em;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+}
+.container {
+  background: white;
+  color: black;
+  padding: 1%;
+  margin: 5em auto;
+  min-width: auto;
+  width: 40em;
+  min-width: 20%;
+  max-width: 90%;
+  border-radius: 1em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: width 0.3s ease; /* Animation für fließende Übergänge */
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+}
+.degree,
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 1em;
+  font-weight: bold;
+}
+/* End Index.html */
+
+/* Begin About.html */
+.aboutme-box a {
+  color: #a30a0a;
+  text-decoration: none;
+  font-weight: bold;
+}
+.aboutme-box a:hover {
+  text-decoration: underline;
+}
+.aboutme-box {
+  background-color: white;
+  color: black;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100em;
+  min-width: 50%;
+  max-width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.aboutme-box-head {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* Begin Timeline */
+.timeline-container {
+  display: flex;
+  gap: 2rem;
+  margin: 4rem auto;
+  max-width: 100em;
+  padding: 0 1rem;
+}
+.column {
+  flex: 1;
+}
+.timeline-entry {
+  margin-bottom: 1.5rem;
+  padding: 2em;
+  background: #f4f4f4;
+  border-left: 0.5em solid #a30a0a;
+  border-radius: 1em;
+}
+.year {
+  font-weight: bold;
+  color: #444;
+}
+.title {
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+  color: #000;
+}
+.description {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+.timeline-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  color: #ffffff;
+}
+.timeline-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60%;
+  height: 0.2em;
+  background-color: #a30a0a;
+}
+/* End Timeline */
+/* End Aboutme.html */
+/* Begin Projects.html */
+.project-box {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  max-width: 90%;
+  margin: 2em auto;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  text-indent: -9999px;
+}
+.project-text {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+.project-text h2 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+.project-text p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.project-image {
+  flex: 1;
+  background-color: #eee;
+  z-index: 1;
+}
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* End Projects.html */
+/* Begin Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-right: 40px;
+  transition: transform 0.2s ease;
+}
+nav li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  text-decoration: none;
+  font-size: 1.2em;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+nav li:hover {
+  transform: scale(1.1);
+}
+nav li a:hover {
+  color: #ac0808;
+  transform: scale(1.1);
+}
+nav ul li .active {
+  background-size: 10px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-color: #ac0808;
+  color: white;
+}
+/* End Navigation */
+
+/* Begin Footer */
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #f8f8f8;
+  padding: 1em 0;
+  text-align: center;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.site-footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10em;
+}
+.site-footer .social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+.site-footer .social-links li {
+  display: inline-block;
+}
+.site-footer .social-links a {
+  color: #444;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+.site-footer .social-links a:hover {
+  color: #ac0808;
+}
+.copyright {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+.social-links img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+.social-links img:hover {
+  transform: scale(1.2);
+}
+/* End Footer */
