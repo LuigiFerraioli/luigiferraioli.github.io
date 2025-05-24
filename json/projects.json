@@ -16,5 +16,11 @@
     "description": "The Gazebo Train project involves creating a digital twin of a rail vehicle using ROS2 and Gazebo. Equipped with LiDAR sensors, camera systems, and inertial measurement units (IMUs), the virtual train can realistically perceive its surroundings. This enables testing and optimization of concepts for automated driving and assistance systems in simulation before real-world deployment.",
     "image": "https://github.com/LuigiFerraioli/ros2_gazebo_train/raw/main/images/main.png",
     "link": "https://github.com/LuigiFerraioli/ros2_gazebo_train"
+  },
+  {
+    "title": "🎲 Monopoly World",
+    "description": "This project simulates the electronic bank and card reader for Monopoly World. It allows 2 to 8 players to buy, sell properties, and pay rent just like in the classic game. A quick and convenient solution if your game’s batteries or device are not working.",
+    "image": "../image/monopoly_world.png",
+    "link": "https://github.com/LuigiFerraioli/Monopoly_World#"
   }
 ]
