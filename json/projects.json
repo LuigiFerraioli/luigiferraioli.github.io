@@ -1,5 +1,11 @@
 [
   {
+    "title": "🎨 FarbenWolf",
+    "description": "Farben Wolf is a Python-based desktop application for surface measurement used by painting and coating companies. The software enables independent area calculation based on entered dimensions and provides a visual representation for verification and plausibility checks.",
+    "image": "https://github.com/LuigiFerraioli/FarbenWolf/blob/main/resources/LogoTransparent.png?raw=true",
+    "link": "https://github.com/LuigiFerraioli/FarbenWolf"
+  },
+  {
     "title": "♾️ DEFACTO",
     "description": "The DEFACTO project focuses on developing a DevOps pipeline for software development in rail vehicles. The goal is to support the entire development process—from planning and implementation to the deployment of new features—through automated testing and development steps. Once the pipeline is successfully completed, the software can be automatically deployed to real rail vehicles.",
     "image": "../image/defacto.png",
