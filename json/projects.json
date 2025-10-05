@@ -1,11 +1,5 @@
 [
   {
-    "title": "🎨 FarbenWolf",
-    "description": "Farben Wolf is a Python-based desktop application for surface measurement used by painting and coating companies. The software enables independent area calculation based on entered dimensions and provides a visual representation for verification and plausibility checks.",
-    "image": "https://github.com/LuigiFerraioli/FarbenWolf/blob/main/resources/LogoTransparent.png?raw=true",
-    "link": "https://github.com/LuigiFerraioli/FarbenWolf"
-  },
-  {
     "title": "♾️ DEFACTO",
     "description": "The DEFACTO project focuses on developing a DevOps pipeline for software development in rail vehicles. The goal is to support the entire development process—from planning and implementation to the deployment of new features—through automated testing and development steps. Once the pipeline is successfully completed, the software can be automatically deployed to real rail vehicles.",
     "image": "../image/defacto.png",
@@ -22,6 +16,18 @@
     "description": "The Gazebo Train project involves creating a digital twin of a rail vehicle using ROS2 and Gazebo. Equipped with LiDAR sensors, camera systems, and inertial measurement units (IMUs), the virtual train can realistically perceive its surroundings. This enables testing and optimization of concepts for automated driving and assistance systems in simulation before real-world deployment.",
     "image": "https://github.com/LuigiFerraioli/ros2_gazebo_train/raw/main/images/main.png",
     "link": "https://github.com/LuigiFerraioli/ros2_gazebo_train"
+  },
+  {
+    "title": "🎨 FarbenWolf",
+    "description": "Farben Wolf is a Python-based desktop application for surface measurement used by painting and coating companies. The software enables independent area calculation based on entered dimensions and provides a visual representation for verification and plausibility checks.",
+    "image": "https://github.com/LuigiFerraioli/FarbenWolf/blob/main/resources/LogoTransparent.png?raw=true",
+    "link": "https://github.com/LuigiFerraioli/FarbenWolf"
+  },
+  {
+    "title": "🤖 Industrial Robot Simulation",
+    "description": "This project is a coding challenge focused on the control of a 6-axis robot arm with a simple frontend. The main task was to implement a control system in Python that allows basic movement commands for all six joints of the robot.",
+    "image": "https://github.com/LuigiFerraioli/industrial_robot_simulation/blob/main/image/home_position.gif?raw=true",
+    "link": "https://github.com/LuigiFerraioli/industrial_robot_simulation"
   },
   {
     "title": "🎲 Monopoly World",
