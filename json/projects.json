@@ -14,7 +14,7 @@
   {
     "title": "🚆 Gazebo Train",
     "description": "The Gazebo Train project involves creating a digital twin of a rail vehicle using ROS2 and Gazebo. Equipped with LiDAR sensors, camera systems, and inertial measurement units (IMUs), the virtual train can realistically perceive its surroundings. This enables testing and optimization of concepts for automated driving and assistance systems in simulation before real-world deployment.",
-    "image": "https://github.com/LuigiFerraioli/ros2_gazebo_train/raw/main/images/main.png",
+    "image": "https://github.com/LuigiFerraioli/ros2_gazebo_train/blob/main/images/train_animation.gif?raw=true",
     "link": "https://github.com/LuigiFerraioli/ros2_gazebo_train"
   },
   {
