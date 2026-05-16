@@ -1,0 +1,30 @@
+{
+  "profile": {
+    "intro": "Hello, I'm Luigi 👋\nI’m a Mechatronics Engineer with a background as an Automotive Mechatronics Technician.\n\nWith degrees in Mechanical Engineering and Mechatronics, I focus on robotics, autonomous systems, and intelligent automation.\n\nI'm especially excited about building systems that are efficient, reliable, and solve real-world engineering problems.",
+    "degree": "🎓 M. Sc. Mechatronics",
+    "degree_2": "🎓 B. Eng. Mechanical Engineering",
+    "degree_3": "🎓 B. Eng. Mechatronics Engineering",
+    "degree_4": "🛠️ Automotive Mechatronics Technician"
+  },
+  "roles": [
+    "Mechatronics Systems Engineer",
+    "Robotics & Autonomous Systems Engineer",
+    "Industrial Automation & PLC Engineering",
+    "Railway Software & Safety Systems",
+    "Test & Validation Engineering",
+    "Human-Machine Interface",
+    "Automotive Mechatronics Technician"
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/luigi-ferraioli-850554250/",
+      "icon": "../image/linkedin_icon.png"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/LuigiFerraioli",
+      "icon": "../image/github_icon.png"
+    }
+  ]
+}

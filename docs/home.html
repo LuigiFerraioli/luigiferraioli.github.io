@@ -1,26 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <title>Luigi Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="icon" href="../image/tabicon.png" sizes="32x32" />
     <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
+
   <body>
-    <!--Navigation-->
-    <nav>
-      <!--a href="#"><img src="logo.png" alt="Logo"></a-->
-      <ul>
-        <li><a class="active" href="home.html">Home</a></li>
-        <li><a href="aboutme.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
+    <!-- Background -->
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="auto"
+      class="bg-video"
+      poster="../image/bg.jpg"
+    >
+      <source src="../image/bg.mp4" type="video/mp4" />
+    </video>
+
+    <!-- NAVIGATION -->
+    <nav class="side-nav">
+      <a href="#home" title="Home">
+        <i class="fa-solid fa-house"></i>
+      </a>
+
+      <a href="#about" title="About">
+        <i class="fa-solid fa-user"></i>
+      </a>
+
+      <a href="#projects" title="Projects">
+        <i class="fa-solid fa-laptop-code"></i>
+      </a>
     </nav>
-    <!--Content-->
-    <div class="container" id="profile-container"></div>
+
+    <!-- HOME -->
+    <section class="page-section home-section" id="home">
+      <div class="container" id="profile-container"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="page-section about-section" id="about">
+      <h1 class="page-heading">About</h1>
+
+      <div id="about-placeholder"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="page-section projects-section" id="projects">
+      <h1 class="page-heading">Projects</h1>
+
+      <div id="projects"></div>
+    </section>
+
     <script src="../js/profil.js"></script>
-    <!-- footer --->
-    <div id="footer-placeholder"></div>
-    <script src="../js/footer.js"></script>
+    <script src="../js/about.js"></script>
+    <script src="../js/projects.js"></script>
+    <script src="../js/video.js"></script>
   </body>
 </html>

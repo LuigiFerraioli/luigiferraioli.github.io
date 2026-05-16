@@ -4,28 +4,38 @@ document.addEventListener('DOMContentLoaded', function () {
     .then((data) => {
       const container = document.getElementById('projects');
 
-      data.forEach((project, index) => {
+      data.forEach((project) => {
         const box = document.createElement('div');
         box.className = 'project-box';
 
-        // Animation hinzufügen
-        box.style.animation =
-          'slideInRight 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards';
-        box.style.animationDelay = `${index * 0.3}s`;
-        box.style.opacity = '0'; // Startzustand für Animation
-
         box.innerHTML = `
-          <a href="${project.link}" class="project-link-overlay" target="_blank" rel="noopener noreferrer"></a>
+          <a href="${project.link}" class="project-link-overlay" target="_blank"></a>
           <div class="project-text">
             <h2>${project.title}</h2>
             <p>${project.description}</p>
           </div>
           <div class="project-image">
-            <img src="${project.image}" alt="Project Image" />
+            <img src="${project.image}" />
           </div>
         `;
+
         container.appendChild(box);
       });
-    })
-    .catch((error) => console.error('Error loading projects:', error));
+
+      // SCROLL ANIMATION
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('show');
+            }
+          });
+        },
+        { threshold: 0.35, rootMargin: '0px 0px -15% 0px' }
+      );
+
+      document.querySelectorAll('.project-box').forEach((el) => {
+        observer.observe(el);
+      });
+    });
 });
